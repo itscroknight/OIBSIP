@@ -1,0 +1,155 @@
+.logo{
+    height: 70px;
+    width: 70px;
+}
+.header{
+    position: fixed;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    text-align: center;
+    background-color: rgb(198, 226, 246);
+    padding-right: 100%;   
+}
+
+.logo {
+    height: 70px;
+    width: 70px;
+    margin-right: 2px; 
+}
+.background {
+    
+    
+    background-image: url('background_img.jpg'); 
+    background-size: 100%;
+    font-family: Arial, sans-serif; 
+    background-repeat: no-repeat;
+    position: relative;
+    background-attachment: fixed;
+    padding: 0;
+}
+.button{
+    background-color: rgb(27, 147, 27);
+    text-decoration-color: rgb(242, 236, 236);
+    border-radius: 8px;
+    padding: 10px 24px;
+    transform: translateX(120%);
+}
+
+.center-text {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -100%);    
+}
+
+.typewriter {
+    color: #030303;
+    font-family: 'Times New Roman', Times, serif;
+    overflow: hidden; 
+    border-right: .15em solid rgb(6, 6, 6); 
+    white-space: nowrap; 
+    margin: 0 auto; 
+    letter-spacing: .15em; 
+    animation: 
+      typing 3.5s steps(30, end),
+      blink-caret .5s step-end infinite;
+  }
+  @keyframes typing {
+    from { width: 0 }
+    to { width: 100% }
+  }
+  
+  
+  @keyframes blink-caret {
+    from, to { border-color: transparent }
+    50% {}
+  }
+  
+  .img_par{
+    font-size: 20px;
+    
+  }
+  .card {
+    display: flex;
+    flex-direction: row;
+    padding: 12px 24px;
+    animation-name: cardAni ease 3s;
+    animation-iteration-count: 1;
+    animation-fill-mode: forwards;
+
+    
+  }
+  .card_img {
+    margin-left: 20px;
+  }
+
+  @keyframes cardAni {
+    0% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 1;
+     }
+  }
+
+.flash_img{
+    height: 382px;
+    width: 370px;
+}
+
+.container {
+    position: relative;
+    text-align: center;
+    color: rgb(6, 6, 6);
+    z-index: -1;
+}
+
+.bottom-left {
+    position: absolute;
+    bottom: 8px;
+    left: 25%;
+    background-color: aliceblue;
+    border-radius: 8px;
+    padding: 10px 20px;
+    
+}
+
+.bottom-left:hover{
+  background-color: rgb(55, 90, 114);
+}
+
+input[type=text], input[type=email], select, textarea {
+  width: 100%; 
+  padding: 12px; 
+  border: 1px solid #ccc; 
+  border-radius: 4px; 
+  box-sizing: border-box; 
+  margin-top: 6px; 
+  margin-bottom: 16px; 
+  resize: vertical 
+}
+
+
+input[type=submit] {
+  background-color: #04AA6D;
+  color: white;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+
+input[type=submit]:hover {
+  background-color: #45a049;
+}
+
+
+.container_form {
+  border-radius: 5px;
+  background-color: #f2f2f2;
+  padding: 20px;
+}
+
+
